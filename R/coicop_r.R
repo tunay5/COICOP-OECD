@@ -35,6 +35,6 @@ cpi <- function(country, class, start, end, period){
 
   df_1 <- data.frame(readsdmx_1)
 
-  View(df_1)
+  print(df_1)
 
 }
