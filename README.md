@@ -12,11 +12,10 @@ The package can be installed through devtools:
 ``` r
 #Install devtool package and add to usage
 install.packages("devtools",repos = "http://cran.us.r-project.org")
+library(devtools)
 ```
 
 ``` r
-library(devtools)
-
 #Install COICOP Package and library
 install_github("tunay5/COICOP")
 library(coicoppackage)
