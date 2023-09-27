@@ -14,11 +14,6 @@ The package can be installed through devtools:
 install.packages("devtools",repos = "http://cran.us.r-project.org")
 ```
 
-    ## package 'devtools' successfully unpacked and MD5 sums checked
-    ## 
-    ## The downloaded binary packages are in
-    ##  C:\Users\tunay\AppData\Local\Temp\Rtmp6H7ocz\downloaded_packages
-
 ``` r
 library(devtools)
 
@@ -54,11 +49,6 @@ To receive the dataset with demanded features, use cpi():
 cpi(country = "DEU", class= "CPALTT01", start = 2000, end = 2001, period = "Q")
 ```
 
-    ## [rsdmx][INFO] Fetching 'https://stats.oecd.org/restsdmx/sdmx.ashx/GetData/PRICES_CPI//DEU.CPALTT01.GY.Q/all/all?startPeriod=2000&endPeriod=2001' 
-    ## [rsdmx][INFO] DSD ref identified in dataset = 'PRICES_CPI' 
-    ## [rsdmx][INFO] Attempt to fetch & bind DSD to dataset 
-    ## [rsdmx][INFO] Fetching 'https://stats.oecd.org/restsdmx/sdmx.ashx/GetDataStructure/PRICES_CPI' 
-    ## [rsdmx][INFO] DSD fetched and associated to dataset! 
     ##   LOCATION  SUBJECT MEASURE FREQUENCY TIME_FORMAT UNIT POWERCODE obsTime
     ## 1      DEU CPALTT01      GY         Q         P3M   PC         0 2000-Q1
     ## 2      DEU CPALTT01      GY         Q         P3M   PC         0 2000-Q2
