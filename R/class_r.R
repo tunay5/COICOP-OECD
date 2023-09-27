@@ -4,7 +4,7 @@
 #' @export
 #'
 #' @examples
-class <- function(){
+classification <- function(){
   url <- "https://stats.oecd.org/index.aspx?DataSetCode=PRICES_CPI#"
 
   read_1 <- rvest::read_html(url)
@@ -22,3 +22,4 @@ class <- function(){
 
   print(data_1)
 }
+

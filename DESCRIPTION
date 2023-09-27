@@ -1,5 +1,5 @@
 Package: coicoppackage
-Title: What the Package Does (One Line, Title Case)
+Title: OECD Consumer Price Index Based on COICOP Classification
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
