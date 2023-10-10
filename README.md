@@ -17,7 +17,7 @@ library(devtools)
 
 ``` r
 #Install COICOP Package and library
-install_github("tunay5/COICOP")
+install_github("tunay5/COICOP-OECD")
 library(coicoppackage)
 ```
 
